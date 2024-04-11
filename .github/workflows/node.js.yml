@@ -27,5 +27,7 @@ jobs:
     - name: build mall4v
       run: |
         cd front-end/mall4v
-        npm install
-        npm run build --if-present
+        npm i -g pnpm
+        pnpm install
+        pnpm build
+        ls -l
